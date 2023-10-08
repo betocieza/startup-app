@@ -1,0 +1,473 @@
+2023-10-04 19:11:18 | ERROR | 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2023-10-04 19:11:18 | ERROR | Traceback (most recent call last):
+  File "D:\python\startup-app\src\routes\AuthRoutes.py", line 20, in login
+    username = request.json['username']
+  File "D:\python\startup-app\venv\lib\site-packages\werkzeug\wrappers\request.py", line 558, in json
+    return self.get_json()
+  File "D:\python\startup-app\venv\lib\site-packages\werkzeug\wrappers\request.py", line 604, in get_json
+    return self.on_json_loading_failed(None)
+  File "D:\python\startup-app\venv\lib\site-packages\flask\wrappers.py", line 130, in on_json_loading_failed
+    return super().on_json_loading_failed(e)
+  File "D:\python\startup-app\venv\lib\site-packages\werkzeug\wrappers\request.py", line 647, in on_json_loading_failed
+    raise UnsupportedMediaType(
+werkzeug.exceptions.UnsupportedMediaType: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+
+2023-10-04 19:18:51 | ERROR | 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2023-10-04 19:18:51 | ERROR | Traceback (most recent call last):
+  File "D:\python\startup-app\src\routes\AuthRoutes.py", line 20, in login
+    username = request.json['username']
+  File "D:\python\startup-app\venv\lib\site-packages\werkzeug\wrappers\request.py", line 558, in json
+    return self.get_json()
+  File "D:\python\startup-app\venv\lib\site-packages\werkzeug\wrappers\request.py", line 604, in get_json
+    return self.on_json_loading_failed(None)
+  File "D:\python\startup-app\venv\lib\site-packages\flask\wrappers.py", line 130, in on_json_loading_failed
+    return super().on_json_loading_failed(e)
+  File "D:\python\startup-app\venv\lib\site-packages\werkzeug\wrappers\request.py", line 647, in on_json_loading_failed
+    raise UnsupportedMediaType(
+werkzeug.exceptions.UnsupportedMediaType: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+
+2023-10-04 19:20:42 | ERROR | 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2023-10-04 19:20:42 | ERROR | Traceback (most recent call last):
+  File "D:\python\startup-app\src\routes\AuthRoutes.py", line 20, in login
+    username = request.json['username']
+  File "D:\python\startup-app\venv\lib\site-packages\werkzeug\wrappers\request.py", line 558, in json
+    return self.get_json()
+  File "D:\python\startup-app\venv\lib\site-packages\werkzeug\wrappers\request.py", line 604, in get_json
+    return self.on_json_loading_failed(None)
+  File "D:\python\startup-app\venv\lib\site-packages\flask\wrappers.py", line 130, in on_json_loading_failed
+    return super().on_json_loading_failed(e)
+  File "D:\python\startup-app\venv\lib\site-packages\werkzeug\wrappers\request.py", line 647, in on_json_loading_failed
+    raise UnsupportedMediaType(
+werkzeug.exceptions.UnsupportedMediaType: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+
+2023-10-04 19:24:41 | ERROR | 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2023-10-04 19:24:41 | ERROR | Traceback (most recent call last):
+  File "D:\python\startup-app\src\routes\AuthRoutes.py", line 20, in login
+    username = request.json['username']
+  File "D:\python\startup-app\venv\lib\site-packages\werkzeug\wrappers\request.py", line 558, in json
+    return self.get_json()
+  File "D:\python\startup-app\venv\lib\site-packages\werkzeug\wrappers\request.py", line 604, in get_json
+    return self.on_json_loading_failed(None)
+  File "D:\python\startup-app\venv\lib\site-packages\flask\wrappers.py", line 130, in on_json_loading_failed
+    return super().on_json_loading_failed(e)
+  File "D:\python\startup-app\venv\lib\site-packages\werkzeug\wrappers\request.py", line 647, in on_json_loading_failed
+    raise UnsupportedMediaType(
+werkzeug.exceptions.UnsupportedMediaType: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+
+2023-10-04 19:27:31 | ERROR | 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2023-10-04 19:27:31 | ERROR | Traceback (most recent call last):
+  File "D:\python\startup-app\src\routes\AuthRoutes.py", line 20, in login
+    username = request.json['username']
+  File "D:\python\startup-app\venv\lib\site-packages\werkzeug\wrappers\request.py", line 558, in json
+    return self.get_json()
+  File "D:\python\startup-app\venv\lib\site-packages\werkzeug\wrappers\request.py", line 604, in get_json
+    return self.on_json_loading_failed(None)
+  File "D:\python\startup-app\venv\lib\site-packages\flask\wrappers.py", line 130, in on_json_loading_failed
+    return super().on_json_loading_failed(e)
+  File "D:\python\startup-app\venv\lib\site-packages\werkzeug\wrappers\request.py", line 647, in on_json_loading_failed
+    raise UnsupportedMediaType(
+werkzeug.exceptions.UnsupportedMediaType: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+
+2023-10-04 19:47:47 | ERROR | (1146, "Table 'db_startup.accouts' doesn't exist")
+2023-10-04 19:47:47 | ERROR | Traceback (most recent call last):
+  File "D:\python\startup-app\src\services\AuthService.py", line 22, in login_user
+    cursor.execute(query)
+  File "D:\python\startup-app\venv\lib\site-packages\pymysql\cursors.py", line 153, in execute
+    result = self._query(query)
+  File "D:\python\startup-app\venv\lib\site-packages\pymysql\cursors.py", line 322, in _query
+    conn.query(q)
+  File "D:\python\startup-app\venv\lib\site-packages\pymysql\connections.py", line 558, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\python\startup-app\venv\lib\site-packages\pymysql\connections.py", line 822, in _read_query_result
+    result.read()
+  File "D:\python\startup-app\venv\lib\site-packages\pymysql\connections.py", line 1200, in read
+    first_packet = self.connection._read_packet()
+  File "D:\python\startup-app\venv\lib\site-packages\pymysql\connections.py", line 772, in _read_packet
+    packet.raise_for_error()
+  File "D:\python\startup-app\venv\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "D:\python\startup-app\venv\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'db_startup.accouts' doesn't exist")
+
+2023-10-04 19:48:02 | ERROR | (1146, "Table 'db_startup.accouts' doesn't exist")
+2023-10-04 19:48:02 | ERROR | Traceback (most recent call last):
+  File "D:\python\startup-app\src\services\AuthService.py", line 22, in login_user
+    cursor.execute(query)
+  File "D:\python\startup-app\venv\lib\site-packages\pymysql\cursors.py", line 153, in execute
+    result = self._query(query)
+  File "D:\python\startup-app\venv\lib\site-packages\pymysql\cursors.py", line 322, in _query
+    conn.query(q)
+  File "D:\python\startup-app\venv\lib\site-packages\pymysql\connections.py", line 558, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\python\startup-app\venv\lib\site-packages\pymysql\connections.py", line 822, in _read_query_result
+    result.read()
+  File "D:\python\startup-app\venv\lib\site-packages\pymysql\connections.py", line 1200, in read
+    first_packet = self.connection._read_packet()
+  File "D:\python\startup-app\venv\lib\site-packages\pymysql\connections.py", line 772, in _read_packet
+    packet.raise_for_error()
+  File "D:\python\startup-app\venv\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "D:\python\startup-app\venv\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'db_startup.accouts' doesn't exist")
+
+2023-10-04 19:51:22 | ERROR | (1146, "Table 'db_startup.accouts' doesn't exist")
+2023-10-04 19:51:22 | ERROR | Traceback (most recent call last):
+  File "D:\python\startup-app\src\services\AuthService.py", line 22, in login_user
+    cursor.execute(query)
+  File "D:\python\startup-app\venv\lib\site-packages\pymysql\cursors.py", line 153, in execute
+    result = self._query(query)
+  File "D:\python\startup-app\venv\lib\site-packages\pymysql\cursors.py", line 322, in _query
+    conn.query(q)
+  File "D:\python\startup-app\venv\lib\site-packages\pymysql\connections.py", line 558, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\python\startup-app\venv\lib\site-packages\pymysql\connections.py", line 822, in _read_query_result
+    result.read()
+  File "D:\python\startup-app\venv\lib\site-packages\pymysql\connections.py", line 1200, in read
+    first_packet = self.connection._read_packet()
+  File "D:\python\startup-app\venv\lib\site-packages\pymysql\connections.py", line 772, in _read_packet
+    packet.raise_for_error()
+  File "D:\python\startup-app\venv\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "D:\python\startup-app\venv\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'db_startup.accouts' doesn't exist")
+
+2023-10-04 19:51:31 | ERROR | (1146, "Table 'db_startup.accouts' doesn't exist")
+2023-10-04 19:51:31 | ERROR | Traceback (most recent call last):
+  File "D:\python\startup-app\src\services\AuthService.py", line 22, in login_user
+    cursor.execute(query)
+  File "D:\python\startup-app\venv\lib\site-packages\pymysql\cursors.py", line 153, in execute
+    result = self._query(query)
+  File "D:\python\startup-app\venv\lib\site-packages\pymysql\cursors.py", line 322, in _query
+    conn.query(q)
+  File "D:\python\startup-app\venv\lib\site-packages\pymysql\connections.py", line 558, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\python\startup-app\venv\lib\site-packages\pymysql\connections.py", line 822, in _read_query_result
+    result.read()
+  File "D:\python\startup-app\venv\lib\site-packages\pymysql\connections.py", line 1200, in read
+    first_packet = self.connection._read_packet()
+  File "D:\python\startup-app\venv\lib\site-packages\pymysql\connections.py", line 772, in _read_packet
+    packet.raise_for_error()
+  File "D:\python\startup-app\venv\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "D:\python\startup-app\venv\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'db_startup.accouts' doesn't exist")
+
+2023-10-04 19:54:30 | ERROR | (1146, "Table 'db_startup.accouts' doesn't exist")
+2023-10-04 19:54:30 | ERROR | Traceback (most recent call last):
+  File "D:\python\startup-app\src\services\AuthService.py", line 22, in login_user
+    cursor.execute(query)
+  File "D:\python\startup-app\venv\lib\site-packages\pymysql\cursors.py", line 153, in execute
+    result = self._query(query)
+  File "D:\python\startup-app\venv\lib\site-packages\pymysql\cursors.py", line 322, in _query
+    conn.query(q)
+  File "D:\python\startup-app\venv\lib\site-packages\pymysql\connections.py", line 558, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\python\startup-app\venv\lib\site-packages\pymysql\connections.py", line 822, in _read_query_result
+    result.read()
+  File "D:\python\startup-app\venv\lib\site-packages\pymysql\connections.py", line 1200, in read
+    first_packet = self.connection._read_packet()
+  File "D:\python\startup-app\venv\lib\site-packages\pymysql\connections.py", line 772, in _read_packet
+    packet.raise_for_error()
+  File "D:\python\startup-app\venv\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "D:\python\startup-app\venv\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'db_startup.accouts' doesn't exist")
+
+2023-10-04 20:10:09 | ERROR | type object 'User' has no attribute 'check_password'
+2023-10-04 20:10:09 | ERROR | Traceback (most recent call last):
+  File "D:\python\startup-app\src\services\AuthService.py", line 26, in login_user
+    authenticated_user = User(row[0], row[1], User.check_password(row[2], user.password), row[3])
+AttributeError: type object 'User' has no attribute 'check_password'
+
+2023-10-04 20:11:54 | ERROR | type object 'User' has no attribute 'check_password'
+2023-10-04 20:11:54 | ERROR | Traceback (most recent call last):
+  File "D:\python\startup-app\src\services\AuthService.py", line 26, in login_user
+    authenticated_user = User(row[0], row[1], User.check_password(row[2], user.password), row[3])
+AttributeError: type object 'User' has no attribute 'check_password'
+
+2023-10-04 20:13:21 | ERROR | type object 'User' has no attribute 'check_password'
+2023-10-04 20:13:21 | ERROR | Traceback (most recent call last):
+  File "D:\python\startup-app\src\services\AuthService.py", line 26, in login_user
+    authenticated_user = User(row[0], row[1], User.check_password(row[2], user.password), row[3])
+AttributeError: type object 'User' has no attribute 'check_password'
+
+2023-10-04 20:16:29 | ERROR | type object 'User' has no attribute 'check_password'
+2023-10-04 20:16:29 | ERROR | Traceback (most recent call last):
+  File "D:\python\startup-app\src\services\AuthService.py", line 26, in login_user
+    authenticated_user = User(row[0], row[1], User.check_password(row[2], user.password), row[3])
+AttributeError: type object 'User' has no attribute 'check_password'
+
+2023-10-04 20:24:18 | ERROR | a bytes-like object is required, not 'str'
+2023-10-04 20:24:18 | ERROR | Traceback (most recent call last):
+  File "D:\python\startup-app\src\services\AuthService.py", line 26, in login_user
+    authenticated_user = User(row[0], row[1], User.check_password(row[2], user.password), row[3])
+  File "D:\python\startup-app\src\models\UserModel.py", line 13, in check_password
+    return check_password_hash(hashed_password, password)
+  File "D:\python\startup-app\venv\lib\site-packages\werkzeug\security.py", line 120, in check_password_hash
+    method, salt, hashval = pwhash.split("$", 2)
+TypeError: a bytes-like object is required, not 'str'
+
+2023-10-04 20:26:14 | ERROR | a bytes-like object is required, not 'str'
+2023-10-04 20:26:14 | ERROR | Traceback (most recent call last):
+  File "D:\python\startup-app\src\services\AuthService.py", line 26, in login_user
+    authenticated_user = User(row[0], row[1], User.check_password(row[2], user.password), row[3])
+  File "D:\python\startup-app\src\models\UserModel.py", line 13, in check_password
+    return check_password_hash(hashed_password, password)
+  File "D:\python\startup-app\venv\lib\site-packages\werkzeug\security.py", line 120, in check_password_hash
+    method, salt, hashval = pwhash.split("$", 2)
+TypeError: a bytes-like object is required, not 'str'
+
+2023-10-04 20:36:20 | ERROR | a bytes-like object is required, not 'str'
+2023-10-04 20:36:20 | ERROR | Traceback (most recent call last):
+  File "D:\python\startup-app\src\services\AuthService.py", line 26, in login_user
+    authenticated_user = User(row[0], row[1], User.check_password(row[2], user.password), row[3])
+  File "D:\python\startup-app\src\models\UserModel.py", line 13, in check_password
+    return check_password_hash(hashed_password, password)
+  File "D:\python\startup-app\venv\lib\site-packages\werkzeug\security.py", line 120, in check_password_hash
+    method, salt, hashval = pwhash.split("$", 2)
+TypeError: a bytes-like object is required, not 'str'
+
+2023-10-04 20:48:25 | ERROR | a bytes-like object is required, not 'str'
+2023-10-04 20:48:25 | ERROR | Traceback (most recent call last):
+  File "D:\python\startup-app\src\services\AuthService.py", line 26, in login_user
+    authenticated_user = User(row[0], row[1], User.check_password(row[2], user.password), row[3])
+  File "D:\python\startup-app\src\models\UserModel.py", line 13, in check_password
+    return check_password_hash(hashed_password, password)
+  File "D:\python\startup-app\venv\lib\site-packages\werkzeug\security.py", line 120, in check_password_hash
+    method, salt, hashval = pwhash.split("$", 2)
+TypeError: a bytes-like object is required, not 'str'
+
+2023-10-04 23:38:03 | ERROR | check_password_hash() missing 1 required positional argument: 'password'
+2023-10-04 23:38:03 | ERROR | Traceback (most recent call last):
+  File "D:\python\startup-app\src\services\AuthService.py", line 21, in login_user
+    query = "SELECT id, username, password, fullname FROM users WHERE username = '{}' AND password = '{}' ".format(user.username,check_password_hash(user.password))
+TypeError: check_password_hash() missing 1 required positional argument: 'password'
+
+2023-10-05 11:42:09 | ERROR | 'cryptography' package is required for sha256_password or caching_sha2_password auth methods
+2023-10-05 11:42:09 | ERROR | Traceback (most recent call last):
+  File "D:\python\startup-app\src\database\db_mysql.py", line 12, in get_connection
+    return pymysql.connect(
+  File "D:\python\startup-app\venv\lib\site-packages\pymysql\connections.py", line 358, in __init__
+    self.connect()
+  File "D:\python\startup-app\venv\lib\site-packages\pymysql\connections.py", line 664, in connect
+    self._request_authentication()
+  File "D:\python\startup-app\venv\lib\site-packages\pymysql\connections.py", line 976, in _request_authentication
+    auth_packet = _auth.caching_sha2_password_auth(self, auth_packet)
+  File "D:\python\startup-app\venv\lib\site-packages\pymysql\_auth.py", line 266, in caching_sha2_password_auth
+    data = sha2_rsa_encrypt(conn.password, conn.salt, conn.server_public_key)
+  File "D:\python\startup-app\venv\lib\site-packages\pymysql\_auth.py", line 143, in sha2_rsa_encrypt
+    raise RuntimeError(
+RuntimeError: 'cryptography' package is required for sha256_password or caching_sha2_password auth methods
+
+2023-10-05 11:42:09 | ERROR | 'NoneType' object has no attribute 'cursor'
+2023-10-05 11:42:09 | ERROR | Traceback (most recent call last):
+  File "D:\python\startup-app\src\services\AuthService.py", line 19, in login_user
+    with connection.cursor() as cursor:
+AttributeError: 'NoneType' object has no attribute 'cursor'
+
+2023-10-05 11:43:29 | ERROR | 'cryptography' package is required for sha256_password or caching_sha2_password auth methods
+2023-10-05 11:43:29 | ERROR | Traceback (most recent call last):
+  File "D:\python\startup-app\src\database\db_mysql.py", line 12, in get_connection
+    return pymysql.connect(
+  File "D:\python\startup-app\venv\lib\site-packages\pymysql\connections.py", line 358, in __init__
+    self.connect()
+  File "D:\python\startup-app\venv\lib\site-packages\pymysql\connections.py", line 664, in connect
+    self._request_authentication()
+  File "D:\python\startup-app\venv\lib\site-packages\pymysql\connections.py", line 976, in _request_authentication
+    auth_packet = _auth.caching_sha2_password_auth(self, auth_packet)
+  File "D:\python\startup-app\venv\lib\site-packages\pymysql\_auth.py", line 266, in caching_sha2_password_auth
+    data = sha2_rsa_encrypt(conn.password, conn.salt, conn.server_public_key)
+  File "D:\python\startup-app\venv\lib\site-packages\pymysql\_auth.py", line 143, in sha2_rsa_encrypt
+    raise RuntimeError(
+RuntimeError: 'cryptography' package is required for sha256_password or caching_sha2_password auth methods
+
+2023-10-05 11:43:29 | ERROR | 'NoneType' object has no attribute 'cursor'
+2023-10-05 11:43:29 | ERROR | Traceback (most recent call last):
+  File "D:\python\startup-app\src\services\AuthService.py", line 19, in login_user
+    with connection.cursor() as cursor:
+AttributeError: 'NoneType' object has no attribute 'cursor'
+
+2023-10-06 18:20:08 | ERROR | tuple indices must be integers or slices, not str
+2023-10-06 18:20:08 | ERROR | Traceback (most recent call last):
+  File "D:\python\startup-app\src\services\AuthService.py", line 27, in login_user
+    authenticated_user = User(row['id'], row['username'],row['fullname'])
+TypeError: tuple indices must be integers or slices, not str
+
+2023-10-06 18:20:35 | ERROR | tuple indices must be integers or slices, not str
+2023-10-06 18:20:35 | ERROR | Traceback (most recent call last):
+  File "D:\python\startup-app\src\services\AuthService.py", line 26, in login_user
+    if User.check_password(row['password'],user.password):
+TypeError: tuple indices must be integers or slices, not str
+
+2023-10-06 18:21:22 | ERROR | tuple indices must be integers or slices, not str
+2023-10-06 18:21:22 | ERROR | Traceback (most recent call last):
+  File "D:\python\startup-app\src\services\AuthService.py", line 26, in login_user
+    if User.check_password(row['password'],user.password):
+TypeError: tuple indices must be integers or slices, not str
+
+2023-10-06 18:29:13 | ERROR | AuthService.login_user() takes 2 positional arguments but 3 were given
+2023-10-06 18:29:13 | ERROR | Traceback (most recent call last):
+  File "D:\python\startup-app\src\routes\AuthRoutes.py", line 24, in login
+    authenticated_user = AuthService.login_user(username, password)
+TypeError: AuthService.login_user() takes 2 positional arguments but 3 were given
+
+2023-10-06 18:29:23 | ERROR | AuthService.login_user() takes 2 positional arguments but 3 were given
+2023-10-06 18:29:23 | ERROR | Traceback (most recent call last):
+  File "D:\python\startup-app\src\routes\AuthRoutes.py", line 24, in login
+    authenticated_user = AuthService.login_user(username, password)
+TypeError: AuthService.login_user() takes 2 positional arguments but 3 were given
+
+2023-10-06 18:33:32 | ERROR | AuthService.login_user() takes 2 positional arguments but 3 were given
+2023-10-06 18:33:32 | ERROR | Traceback (most recent call last):
+  File "D:\python\startup-app\src\routes\AuthRoutes.py", line 24, in login
+    authenticated_user = AuthService.login_user(username, password)
+TypeError: AuthService.login_user() takes 2 positional arguments but 3 were given
+
+2023-10-06 18:33:44 | ERROR | AuthService.login_user() takes 2 positional arguments but 3 were given
+2023-10-06 18:33:44 | ERROR | Traceback (most recent call last):
+  File "D:\python\startup-app\src\routes\AuthRoutes.py", line 24, in login
+    authenticated_user = AuthService.login_user(username, password)
+TypeError: AuthService.login_user() takes 2 positional arguments but 3 were given
+
+2023-10-06 18:34:11 | ERROR | AuthService.login_user() takes 2 positional arguments but 3 were given
+2023-10-06 18:34:11 | ERROR | Traceback (most recent call last):
+  File "D:\python\startup-app\src\routes\AuthRoutes.py", line 24, in login
+    authenticated_user = AuthService.login_user(username, password)
+TypeError: AuthService.login_user() takes 2 positional arguments but 3 were given
+
+2023-10-06 18:34:38 | ERROR | AuthService.login_user() takes 2 positional arguments but 3 were given
+2023-10-06 18:34:38 | ERROR | Traceback (most recent call last):
+  File "D:\python\startup-app\src\routes\AuthRoutes.py", line 24, in login
+    authenticated_user = AuthService.login_user(username, password)
+TypeError: AuthService.login_user() takes 2 positional arguments but 3 were given
+
+2023-10-06 18:35:37 | ERROR | AuthService.login_user() takes 2 positional arguments but 3 were given
+2023-10-06 18:35:37 | ERROR | Traceback (most recent call last):
+  File "D:\python\startup-app\src\routes\AuthRoutes.py", line 24, in login
+    authenticated_user = AuthService.login_user(username, password)
+TypeError: AuthService.login_user() takes 2 positional arguments but 3 were given
+
+2023-10-06 18:39:38 | ERROR | Cursor.execute() takes from 2 to 3 positional arguments but 4 were given
+2023-10-06 18:39:38 | ERROR | Traceback (most recent call last):
+  File "D:\python\startup-app\src\services\AuthService.py", line 22, in login_user
+    cursor.execute(query, user.username, user.password)
+TypeError: Cursor.execute() takes from 2 to 3 positional arguments but 4 were given
+
+2023-10-06 18:51:33 | ERROR | Cursor.execute() takes from 2 to 3 positional arguments but 4 were given
+2023-10-06 18:51:33 | ERROR | Traceback (most recent call last):
+  File "D:\python\startup-app\src\services\AuthService.py", line 22, in login_user
+    cursor.execute(query, user.username, user.password)
+TypeError: Cursor.execute() takes from 2 to 3 positional arguments but 4 were given
+
+2023-10-06 18:52:30 | ERROR | Cursor.execute() takes from 2 to 3 positional arguments but 4 were given
+2023-10-06 18:52:30 | ERROR | Traceback (most recent call last):
+  File "D:\python\startup-app\src\services\AuthService.py", line 22, in login_user
+    cursor.execute(query, user.username, user.password)
+TypeError: Cursor.execute() takes from 2 to 3 positional arguments but 4 were given
+
+2023-10-06 18:53:53 | ERROR | Cursor.execute() takes from 2 to 3 positional arguments but 4 were given
+2023-10-06 18:53:53 | ERROR | Traceback (most recent call last):
+  File "D:\python\startup-app\src\services\AuthService.py", line 22, in login_user
+    cursor.execute(query, user.username, user.password)
+TypeError: Cursor.execute() takes from 2 to 3 positional arguments but 4 were given
+
+2023-10-06 18:54:57 | ERROR | tuple indices must be integers or slices, not str
+2023-10-06 18:54:57 | ERROR | Traceback (most recent call last):
+  File "D:\python\startup-app\src\services\AuthService.py", line 26, in login_user
+    if check_password_hash(row['password'], user.password):
+TypeError: tuple indices must be integers or slices, not str
+
+2023-10-06 18:56:00 | ERROR | tuple indices must be integers or slices, not str
+2023-10-06 18:56:00 | ERROR | Traceback (most recent call last):
+  File "D:\python\startup-app\src\services\AuthService.py", line 26, in login_user
+    if User.check_password(row['password'], user.password):
+TypeError: tuple indices must be integers or slices, not str
+
+2023-10-06 18:57:09 | ERROR | tuple indices must be integers or slices, not str
+2023-10-06 18:57:09 | ERROR | Traceback (most recent call last):
+  File "D:\python\startup-app\src\services\AuthService.py", line 26, in login_user
+    if User.check_password(row['password'], user.password):
+TypeError: tuple indices must be integers or slices, not str
+
+2023-10-06 18:57:44 | ERROR | tuple indices must be integers or slices, not str
+2023-10-06 18:57:44 | ERROR | Traceback (most recent call last):
+  File "D:\python\startup-app\src\services\AuthService.py", line 26, in login_user
+    if User.check_password(row['password'], user.password):
+TypeError: tuple indices must be integers or slices, not str
+
+2023-10-06 19:57:42 | ERROR | Invalid header padding
+2023-10-06 19:57:42 | ERROR | Traceback (most recent call last):
+  File "D:\python\startup-app\venv\lib\site-packages\jwt\api_jws.py", line 263, in _load
+    header_data = base64url_decode(header_segment)
+  File "D:\python\startup-app\venv\lib\site-packages\jwt\utils.py", line 33, in base64url_decode
+    return base64.urlsafe_b64decode(input_bytes)
+  File "C:\Python310\lib\base64.py", line 133, in urlsafe_b64decode
+    return b64decode(s)
+  File "C:\Python310\lib\base64.py", line 87, in b64decode
+    return binascii.a2b_base64(s)
+binascii.Error: Incorrect padding
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\python\startup-app\src\utils\Security.py", line 41, in verify_token
+    payload = jwt.decode(encoded_token, cls.secret, algorithms=["HS256"])
+  File "D:\python\startup-app\venv\lib\site-packages\jwt\api_jwt.py", line 210, in decode
+    decoded = self.decode_complete(
+  File "D:\python\startup-app\venv\lib\site-packages\jwt\api_jwt.py", line 151, in decode_complete
+    decoded = api_jws.decode_complete(
+  File "D:\python\startup-app\venv\lib\site-packages\jwt\api_jws.py", line 198, in decode_complete
+    payload, signing_input, header, signature = self._load(jwt)
+  File "D:\python\startup-app\venv\lib\site-packages\jwt\api_jws.py", line 265, in _load
+    raise DecodeError("Invalid header padding") from err
+jwt.exceptions.DecodeError: Invalid header padding
+
+2023-10-07 09:49:59 | ERROR | 'cryptography' package is required for sha256_password or caching_sha2_password auth methods
+2023-10-07 09:49:59 | ERROR | Traceback (most recent call last):
+  File "D:\python\startup-app\src\database\db_mysql.py", line 12, in get_connection
+    return pymysql.connect(
+  File "D:\python\startup-app\venv\lib\site-packages\pymysql\connections.py", line 358, in __init__
+    self.connect()
+  File "D:\python\startup-app\venv\lib\site-packages\pymysql\connections.py", line 664, in connect
+    self._request_authentication()
+  File "D:\python\startup-app\venv\lib\site-packages\pymysql\connections.py", line 976, in _request_authentication
+    auth_packet = _auth.caching_sha2_password_auth(self, auth_packet)
+  File "D:\python\startup-app\venv\lib\site-packages\pymysql\_auth.py", line 266, in caching_sha2_password_auth
+    data = sha2_rsa_encrypt(conn.password, conn.salt, conn.server_public_key)
+  File "D:\python\startup-app\venv\lib\site-packages\pymysql\_auth.py", line 143, in sha2_rsa_encrypt
+    raise RuntimeError(
+RuntimeError: 'cryptography' package is required for sha256_password or caching_sha2_password auth methods
+
+2023-10-07 09:49:59 | ERROR | 'NoneType' object has no attribute 'cursor'
+2023-10-07 09:49:59 | ERROR | Traceback (most recent call last):
+  File "D:\python\startup-app\src\services\AuthService.py", line 19, in login_user
+    with connection.cursor() as cursor:
+AttributeError: 'NoneType' object has no attribute 'cursor'
+
+2023-10-07 09:50:07 | ERROR | 'cryptography' package is required for sha256_password or caching_sha2_password auth methods
+2023-10-07 09:50:07 | ERROR | Traceback (most recent call last):
+  File "D:\python\startup-app\src\database\db_mysql.py", line 12, in get_connection
+    return pymysql.connect(
+  File "D:\python\startup-app\venv\lib\site-packages\pymysql\connections.py", line 358, in __init__
+    self.connect()
+  File "D:\python\startup-app\venv\lib\site-packages\pymysql\connections.py", line 664, in connect
+    self._request_authentication()
+  File "D:\python\startup-app\venv\lib\site-packages\pymysql\connections.py", line 976, in _request_authentication
+    auth_packet = _auth.caching_sha2_password_auth(self, auth_packet)
+  File "D:\python\startup-app\venv\lib\site-packages\pymysql\_auth.py", line 266, in caching_sha2_password_auth
+    data = sha2_rsa_encrypt(conn.password, conn.salt, conn.server_public_key)
+  File "D:\python\startup-app\venv\lib\site-packages\pymysql\_auth.py", line 143, in sha2_rsa_encrypt
+    raise RuntimeError(
+RuntimeError: 'cryptography' package is required for sha256_password or caching_sha2_password auth methods
+
+2023-10-07 09:50:07 | ERROR | 'NoneType' object has no attribute 'cursor'
+2023-10-07 09:50:07 | ERROR | Traceback (most recent call last):
+  File "D:\python\startup-app\src\services\AuthService.py", line 19, in login_user
+    with connection.cursor() as cursor:
+AttributeError: 'NoneType' object has no attribute 'cursor'
+
