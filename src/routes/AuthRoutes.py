@@ -19,13 +19,14 @@ def login():
     try:
         username = request.json['username']
         password = request.json['password']
-
-        _user = User(0, username, password,None)
-        authenticated_user = AuthService.login_user(_user)
-
+       
+        _user = User(0, None, None, None,username, password,None)       
+        authenticated_user = AuthService.login_user(_user)        
+    
         if (authenticated_user != None):          
-            encoded_token = Security.generate_token(authenticated_user)                
-            return jsonify({'success': True, 'token': encoded_token})
+            encoded_token = Security.generate_token(authenticated_user)    
+            #print(encoded_token)            
+            return jsonify(encoded_token)
           
         else:
             response = jsonify({'message': 'Unauthorized'})

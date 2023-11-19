@@ -1,4 +1,4 @@
-from flask import Blueprint, jsonify, redirect, request, url_for
+from flask import Blueprint, jsonify, redirect, request, url_for, render_template
 
 import traceback
 
@@ -11,14 +11,13 @@ main = Blueprint('index_blueprint', __name__)
 
 @main.route('/')
 def index():
-    has_access = Security.verify_token(request.headers)
+    return render_template('./auth/login.html')
 
-    if has_access:
-                      
-        return "ok"
-    
-    else:
-        response = jsonify({'message': 'Unauthorized'})
-        return response, 401
+    #has_access = Security.verify_token(request.headers)
+    #if has_access:                      
+    #    return "ok"    
+    #else:
+    #    response = jsonify({'message': 'Unauthorized'})
+    #    return response, 401
 
    
