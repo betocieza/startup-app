@@ -1,3 +1,5 @@
+FROM python:10.0
+
 WORKDIR /app
 
 COPY requirements.txt .
