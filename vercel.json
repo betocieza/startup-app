@@ -1,11 +1,7 @@
 {
     "version":2,
     "builds":[{"src":"*.py","use":"@vercel/python"}],
-    "routes":[
-        {
-            "src":"/(.*)",
-            "dist":"index.py"
-    }],
+    "rewrites": [{ "source": "/(.*)", "destination": "src/index.py" }],  
     "env":{
         "FLASK_ENV":"production"
     }
