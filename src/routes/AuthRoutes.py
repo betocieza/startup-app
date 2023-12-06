@@ -24,9 +24,8 @@ def login():
         authenticated_user = AuthService.login_user(_user)        
     
         if (authenticated_user != None):          
-            encoded_token = Security.generate_token(authenticated_user)    
-            #print(encoded_token)            
-            return jsonify(encoded_token)
+            encoded_token = Security.generate_token(authenticated_user)                       
+            return jsonify({'message':'success','token':encoded_token})
           
         else:
             response = jsonify({'message': 'Unauthorized'})

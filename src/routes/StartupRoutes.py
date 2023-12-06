@@ -72,7 +72,7 @@ def update_startup(startup_id):
             founder_last_name= request.json['founder_last_name'] 
             gender= request.json['gender'] 
             formation= request.json['formation']            
-            user_id= session['user_id'] 
+            user_id= 2
 
             startup = Startup(0, name, location, age, industry,founder_first_name,founder_last_name,gender,formation,user_id)            
 
